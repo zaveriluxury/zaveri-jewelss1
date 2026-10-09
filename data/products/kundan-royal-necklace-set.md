@@ -8,17 +8,17 @@ body: "Handcrafted luxury direct from Indian artisans for premium festive occasi
 <img width="503" height="390" alt="image" src="https://github.com/user-attachments/assets/a946acce-07ca-4aa6-9bc3-e28220e0f674" />
 [
   {
-    "title": "Royal Kundan Bridal Necklace Set",
-    "image": "/images/uploads/royal-kundan-necklace.jpg",
-    "price": 2499,
-    "old_price": 4999,
+    "title": "Kundan Royal Necklace Set",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=500&q=80",
+    "price": 1499,
+    "old_price": 2999,
     "category": "Necklaces",
     "trending": true,
-    "body": "Premium quality royal kundan necklace set with matching earrings."
+    "body": "Handcrafted luxury direct from Indian artisans for premium festive occasions."
   },
   {
     "title": "Classic American Diamond Adjustable Ring",
-    "image": "/images/uploads/ad-adjustable-ring.jpg",
+    "image": "https://unsplash.com",
     "price": 499,
     "old_price": 999,
     "category": "Rings",
@@ -27,7 +27,7 @@ body: "Handcrafted luxury direct from Indian artisans for premium festive occasi
   },
   {
     "title": "Traditional Gold Plated Bridal Bangles Set",
-    "image": "/images/uploads/gold-plated-bangles.jpg",
+    "image": "https://unsplash.com",
     "price": 1299,
     "old_price": 2499,
     "category": "Bangles",
@@ -36,7 +36,7 @@ body: "Handcrafted luxury direct from Indian artisans for premium festive occasi
   },
   {
     "title": "Elegant Pearl Choker Necklace",
-    "image": "/images/uploads/pearl-choker.jpg",
+    "image": "https://unsplash.com",
     "price": 899,
     "old_price": 1799,
     "category": "Necklaces",
@@ -45,7 +45,7 @@ body: "Handcrafted luxury direct from Indian artisans for premium festive occasi
   },
   {
     "title": "Solitaire Crystal Eternity Ring",
-    "image": "/images/uploads/solitaire-crystal-ring.jpg",
+    "image": "https://unsplash.com",
     "price": 399,
     "old_price": 799,
     "category": "Rings",
