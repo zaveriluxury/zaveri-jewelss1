@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAVERI | Premium Auto-Video E-Commerce Store</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background-color: #111; color: #fff; }
+        header { background-color: #000; padding: 20px; text-align: center; border-bottom: 1px solid #333; }
+        .promo-banner { background: linear-gradient(45deg, #b8860b, #ffd700); color: #000; text-align: center; padding: 10px; font-weight: bold; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .hero { text-align: center; padding: 40px 20px; background: radial-gradient(circle, #222 0%, #111 100%); border-radius: 8px; margin-bottom: 30px; }
+        .hero h1 { color: #ffd700; font-size: 2.5em; margin-bottom: 10px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .product-card { background-color: #222; border: 1px solid #333; border-radius: 8px; padding: 15px; text-align: center; transition: transform 0.3s; }
+        .product-card:hover { transform: translateY(-5px); }
+        .product-card img { max-width: 100%; height: 250px; object-fit: cover; border-radius: 4px; }
+        .product-card h3 { color: #ffd700; margin: 15px 0 10px 0; }
+        .price { font-size: 1.2em; font-weight: bold; color: #fff; }
+        .old-price { text-decoration: line-through; color: #888; font-size: 0.9em; margin-left: 10px; }
+        .btn { background-color: #ffd700; color: #000; border: none; padding: 10px 20px; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 15px; width: 100%; }
+        .btn:hover { background-color: #cca300; }
+        footer { background-color: #000; padding: 40px 20px; text-align: center; margin-top: 50px; border-top: 1px solid #333; color: #888; }
+        footer a { color: #ffd700; text-decoration: none; }
+        .admin-link { display: block; margin-top: 20px; font-size: 0.8em; color: #444; text-decoration: none; }
+        .admin-link:hover { color: #ffd700; }
+    </style>
+</head>
+<body>
+
+    <div class="promo-banner">
+        ✨ Festive Offer: Use Code ZAVERI10 for 10% Extra Discount + Free Shipping across India! 🎁
+    </div>
+
+    <header>
+        <h1>ZAVERI JEWELS</h1>
+        <p>Premium quality artificial & imitation jewellery crafted for your special moments.</p>
+    </header>
+
+    <div class="container">
+        <section class="hero">
+            <h2>Exclusive Premium Jewels</h2>
+            <p>Handcrafted luxury direct from Indian artisans for premium festive occasions.</p>
+        </section>
+
+        <h2>Our Bestsellers Collection</h2>
+        <div class="grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=500&q=80" alt="Kundan Royal Necklace Set">
+                <h3>Kundan Royal Necklace Set</h3>
+                <p class="price">₹1,499 <span class="old-price">₹2,999</span></p>
+                <button class="btn">Add to Bag</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=500&q=80" alt="CZ Diamond Solitaire Ring">
+                <h3>CZ Diamond Solitaire Ring</h3>
+                <p class="price">₹499 <span class="old-price">₹999</span></p>
+                <button class="btn">Add to Bag</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1635767798638-3e25273a8236?auto=format&fit=crop&w=500&q=80" alt="Traditional Jhumka Earrings">
+                <h3>Traditional Jhumka Earrings</h3>
+                <p class="price">₹799 <span class="old-price">₹1,599</span></p>
+                <button class="btn">Add to Bag</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Zaveri Jewels. All Rights Reserved. | Support: itsvikashj87@gmail.com | Location: Jaipur, Rajasthan, India</p>
+        <p>High-grade, anti-tarnish, and budget friendly layout designs.</p>
+        <a href="/admin/" class="admin-link">Admin Login Panel</a>
+    </footer>
+
+</body>
+</html>
